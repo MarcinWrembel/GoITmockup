@@ -1,8 +1,7 @@
 ### Demo
 
-https://marcinwrembel.github.io/goit-react-hw-05-movies/
+https://marcinwrembel.github.io/GoITmockup/
 
-This is site mockup made in technologies:
 
 ### Technologies
 
