@@ -1,0 +1,32 @@
+.button {
+  font-family: inherit;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  outline: none;
+  color: map-get($colors, "text-white");
+  cursor: pointer;
+
+  &--primary {
+    border: 2px solid get-color("border-white");
+    background-color: transparent;
+    transition: border 200ms ease-in-out;
+  }
+
+  &--primary:hover {
+    border: 2px solid get-color("border-red");
+  }
+
+  &--contact {
+    border: 1px solid get-color("border-blue");
+    background-color: get-color("light-blue");
+    transition: background-color 200ms ease-in-out;
+  }
+  &--contact:hover {
+    background-color: get-color("dark-blue");
+  }
+}

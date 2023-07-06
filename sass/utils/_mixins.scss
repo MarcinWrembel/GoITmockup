@@ -1,0 +1,18 @@
+@mixin set-flex(
+  $flex-direction,
+  $justify-content: center,
+  $align-items: center
+) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin yell-red-grad(
+  $direction: to bottom,
+  $start-color: get-color("gradient-secondary"),
+  $end-color: get-color("gradient-primary")
+) {
+  background: linear-gradient($direction, $start-color, $end-color);
+}
